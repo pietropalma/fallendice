@@ -1,2 +1,2 @@
 <?php
-system('git pull');
+system('git fetch --all && git reset --hard origin/main');

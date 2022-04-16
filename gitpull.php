@@ -1,2 +1,2 @@
 <?php
-exec('cd /var/www/fallendice && git pull');
+echo shell_exec('cd /var/www/fallendice && git pull');

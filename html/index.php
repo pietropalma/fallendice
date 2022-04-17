@@ -1,5 +1,5 @@
 <?php
-require '/var/www/fallendice/repo/fallendice/db.php';
+require '/var/www/fallendice/db.php';
 ?>
 <!DOCTYPE HTML>
 <html>

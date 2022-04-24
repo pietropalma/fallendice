@@ -30,7 +30,7 @@ require '/var/www/fallendice/db.php';
 	</script>
 </head>
 <body>
-	<p>Buongiornop!±</p>
+	<p>budjfioajd!±</p>
 
 	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 	<br>

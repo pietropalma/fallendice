@@ -27,6 +27,20 @@ require '/var/www/fallendice/repo/fallendice/db.php';
 			var data = ev.dataTransfer.getData("text");
 			ev.target.appendChild(document.getElementById(data));
 		}
+	
+        const ws = new WebSocket("ws://localhost:8082");
+
+        ws.addEventListener("open", () => {
+            console.log("we are connected");
+
+
+        })
+
+        ws.addEventListener("message", e => {
+            console.log(e.data);
+        })
+
+   
 	</script>
 </head>
 <body>

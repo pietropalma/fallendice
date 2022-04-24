@@ -1,5 +1,5 @@
 <?php
-require '/var/www/fallendice/repo/fallendice/db.php';
+require '/var/www/fallendice/db.php';
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -44,8 +44,7 @@ require '/var/www/fallendice/repo/fallendice/db.php';
 	</script>
 </head>
 <body>
-	such a moron
-	<p>Drag the W3Schools image into the rectangle:</p>
+	<p>budjfioajd!±</p>
 
 	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 	<br>

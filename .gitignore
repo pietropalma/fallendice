@@ -4,3 +4,4 @@
 *.scss.map
 .DS_Store
 ./db.php
+node/node_modules

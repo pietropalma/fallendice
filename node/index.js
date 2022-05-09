@@ -16,7 +16,7 @@ wss.on("connection", ws => {
         ws.send(data);
     });
 
-    setInterval(()=>w.send('message to client'), 3000);
+    setInterval(()=>ws.send('message to client'), 3000);
 
     ws.on("close", () => {
         console.log("client has disconnected");
